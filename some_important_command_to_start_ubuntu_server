@@ -9,4 +9,6 @@ go to wsgi.py and
     import sys 
     if path is not in sys.path:
             append()
+// b careful about sudo apt remove and purge libapache2-mod-wsgi
+beacause this is for python 2.x
 
