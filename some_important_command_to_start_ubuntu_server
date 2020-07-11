@@ -1,1 +1,12 @@
 sudo apt install apache2 
+sudo apt-get install libapache2-mod-wsgi-py3
+pip3 install wsgi
+sudo a2enmod wsgi 
+
+
+go to wsgi.py and 
+    path = 'path / to / manage.py'
+    import sys 
+    if path is not in sys.path:
+            append()
+
